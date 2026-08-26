@@ -8,19 +8,6 @@ SỰ TRỪU TƯỢNG HÓA CỦA CHỨC NĂNG:
        Đề xuất một lớp tương ứng cho mỗi nhóm đối tượng.
 
        Chuyển các hành động chung của nhóm thành các phương thức của lớp đó.
-   Ví dụ:
-Mỗi chiếc ô tô được coi là một đối tượng.
-
-Hành động chung (tạo thành phương thức chung của lớp ô tô):
-  1. Khởi động máy
-  2. Chạy
-  3. Dừng lại
-  4. Tắt máy
-
-Hành động đặc thù (chỉ có ở một số ít xe):
-  1. Giấu đèn pha
-  2. Tự bật đèn pha
-  3. Tự động phát tín hiệu báo động
 
 SỰ TRỪU TƯỢNG HÓA THEO DỮ LIỆU
      Lựa chọn và đưa các thông tin, đặc tính (thuộc tính) của đối tượng thực tế vào trong mô hình lớp.
@@ -30,11 +17,11 @@ Thuộc tính riêng: Đặc điểm đặc thù, chỉ xuất hiện ở một 
 
 Ví dụ: 
 Thực Thể: hệ thống quản lý sinh viên
-  Theo dữ liệu
+  Sự trừu tượng theo dữ liệu 
    Đặc điểm chung: Mã sinh viên, Họ tên, Ngày sinh, Lớp học, Điểm trung bình.
    Đặc điểm riêng: Học bổng, Lớp trưởng/Bí thư, Chứng chỉ tiếng Anh đầu ra.
 
-  Theo chức năng
+  Sự trừu tượng theo chức năng
    Đặc điểm chung: Đăng ký môn học, Nộp bài tập, Xem điểm, Thanh toán học phí.
    Đặc điểm riêng: Đăng ký bảo lưu học tập, Đăng ký xét tốt nghiệp sớm, Xin miễn giảm học phí.
    
