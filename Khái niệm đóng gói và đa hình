@@ -1,0 +1,16 @@
+Sự đóng gói
+
+Cho phép che dấu sự cài đặt chi tiết bên trong của phương thức
+
+Cho phép che dấu dữ liệu bên trong của đối tượng
+
+Cho phép hạn chế tối đa việc sửa lại mã chương trình
+
+
+Tính đa hình (Polymorphism)
+
+Trùng khớp định nghĩa phương thức: Cho phép các lớp khác nhau cài đặt những phương thức có cùng tên gọi, danh sách tham số (số lượng, kiểu dữ liệu) và kiểu giá trị trả về.
+
+Đặc tính trong quan hệ kế thừa: Việc định nghĩa lại các phương thức có cùng chữ ký giữa lớp cha và lớp con giúp triển khai các hành vi chuyên biệt hóa cho từng lớp kế thừa (cơ chế ghi đè / nạp chồng phương thức).
+
+Cơ chế xác định thực thi: Khi thực hiện lời gọi hàm, chương trình sẽ tự động căn cứ vào đối tượng cụ thể đang gọi để kích hoạt chính xác phương thức thuộc về lớp đó.
