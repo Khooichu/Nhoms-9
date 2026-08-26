@@ -1,0 +1,45 @@
+SỰ TRỪU TƯỢNG HÓA CỦA CHỨC NĂNG:
+       Là việc xác định và mô hình hóa phương thức cho lớp dựa theo các hành động mà đối tượng thực hiện.
+  Các bước tiến hành:
+       Thu thập toàn bộ hành động có thể có của đối tượng.
+
+       Nhóm những đối tượng có hoạt động tương tự lại với nhau.
+
+       Đề xuất một lớp tương ứng cho mỗi nhóm đối tượng.
+
+       Chuyển các hành động chung của nhóm thành các phương thức của lớp đó.
+   Ví dụ:
+Mỗi chiếc ô tô được coi là một đối tượng.
+
+Hành động chung (tạo thành phương thức chung của lớp ô tô):
+  1. Khởi động máy
+  2. Chạy
+  3. Dừng lại
+  4. Tắt máy
+
+Hành động đặc thù (chỉ có ở một số ít xe):
+  1. Giấu đèn pha
+  2. Tự bật đèn pha
+  3. Tự động phát tín hiệu báo động
+
+SỰ TRỪU TƯỢNG HÓA THEO DỮ LIỆU
+     Lựa chọn và đưa các thông tin, đặc tính (thuộc tính) của đối tượng thực tế vào trong mô hình lớp.
+ Thuộc tính chung: Đặc điểm mà hầu hết các đối tượng trong cùng nhóm đều có.
+   
+Thuộc tính riêng: Đặc điểm đặc thù, chỉ xuất hiện ở một số ít đối tượng nâng cao hoặc đặc biệt.
+
+Ví dụ: 
+Thực Thể: hệ thống quản lý sinh viên
+  Theo dữ liệu
+   Đặc điểm chung: Mã sinh viên, Họ tên, Ngày sinh, Lớp học, Điểm trung bình.
+   Đặc điểm riêng: Học bổng, Lớp trưởng/Bí thư, Chứng chỉ tiếng Anh đầu ra.
+
+  Theo chức năng
+   Đặc điểm chung: Đăng ký môn học, Nộp bài tập, Xem điểm, Thanh toán học phí.
+   Đặc điểm riêng: Đăng ký bảo lưu học tập, Đăng ký xét tốt nghiệp sớm, Xin miễn giảm học phí.
+   
+
+
+
+
+
